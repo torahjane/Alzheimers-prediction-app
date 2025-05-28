@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import joblib
-model = joblib.load("models/alzheimers_xgb_model.pkl")
+model = joblib.load("model/alzheimers_xgb_model.pkl")
 
 
 st.title("🧠 Alzheimer's Prediction App")
