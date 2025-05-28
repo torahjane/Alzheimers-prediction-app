@@ -39,13 +39,6 @@ Each input value (0 or 1) is based on thresholds determined during training and 
 - `notebook/` - Jupyter notebook files for model training and exploration.
 - `requirements.txt` - Python dependencies required to run the app.
 
-## Future Improvements
-Add human-readable form inputs instead of 0/1
-Explain thresholds to the user
-Add visualizations and charts for insights
-Deploy with a custom domain
-Add documentation and model explainability (e.g., SHAP)
-
 ## Contact
 Developed by Torah — reach out for questions or collaborations!
 
