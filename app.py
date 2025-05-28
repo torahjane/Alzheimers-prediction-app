@@ -1,10 +1,8 @@
 import streamlit as st
 import numpy as np
-import pickle
+import joblib
+model = joblib.load("models/alzheimers_xgb_model.pkl")
 
-# Load your trained model
-with open('model/alzheimers_xgb_model.pkl', 'rb') as f:
-    model = pickle.load(f)
 
 st.title("🧠 Alzheimer's Prediction App")
 
